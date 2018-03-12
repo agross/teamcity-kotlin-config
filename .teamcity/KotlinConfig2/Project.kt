@@ -25,7 +25,7 @@ object Project : Project({
             mode = VersionedSettings.Mode.ENABLED
             buildSettingsMode = VersionedSettings.BuildSettingsMode.PREFER_SETTINGS_FROM_VCS
             rootExtId = KotlinConfig2_Kotlin.id
-            showChanges = false
+            showChanges = true
             settingsFormat = VersionedSettings.Format.KOTLIN
             storeSecureParamsOutsideOfVcs = true
         }
