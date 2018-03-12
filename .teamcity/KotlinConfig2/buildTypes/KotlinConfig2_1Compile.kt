@@ -24,6 +24,11 @@ object KotlinConfig2_1Compile : BuildType({
             path = "build"
             arguments = "Something"
         }
+
+        exec {
+            path = "build"
+            arguments = "SomethingSomething"
+        }
     }
 
     features {
