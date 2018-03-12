@@ -18,6 +18,7 @@ object Project : Project({
 
     buildType(KotlinConfig2_1Compile)
     buildType(KotlinConfig2_2Test)
+    buildType(KotlinConfig2_3Additional)
 
     features {
         versionedSettings {
