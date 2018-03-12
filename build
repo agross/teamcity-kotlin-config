@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+
+echo "Building $1..."
+
+if [ -n "$SHOULD_FAIL" ]; then
+  exit 1
+fi
+
+if [ -f artifacts/artifact.txt ]; then
+  cat artifacts/artifact.txt
+else
+  echo "${ARTIFACT-I am a build artifact}" > artifact.txt
+fi
