@@ -13,6 +13,7 @@ object Project : Project({
     id = "KotlinConfig2"
     parentId = "_Root"
     name = "Kotlin Config 2"
+    archived = true
 
     vcsRoot(KotlinConfig2_Kotlin)
 
